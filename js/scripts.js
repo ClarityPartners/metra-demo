@@ -1,5 +1,5 @@
 jQuery(window).on('load',function(){
-	$('.box_1').slick({
+	$('.box_slide').slick({
 		slideshow:1,
 		slidesToScroll:1,
 		arrows: false,
@@ -12,7 +12,7 @@ jQuery(window).on('load',function(){
 	  slidesToScroll: 1,
 	  autoplay: false,
 	  centerMode: true,
-	  asNavFor: '.box_1',
+	  asNavFor: '.box_slide',
 	  infinite: true,
 	  prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
       nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
