@@ -4872,6 +4872,8 @@ header { padding: 20px 0; }
 
 #footer .footer-lower .policy { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; font-size: 26px; }
 
+.parent-slide { display: inline-block; }
+
 .slideshow { position: relative; display: flex; -webkit-flex-flow: row wrap; flex-flow: row wrap; vertical-align: bottom; }
 
 .slideshow .slick-list { overflow: hidden; }
