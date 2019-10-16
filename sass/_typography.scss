@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Share+Tech+Mono&display=swap');
+
+@mixin lato(){
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@mixin latoBold(){
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+@mixin share(){
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+@mixin shareBold(){
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+//rem font sizing
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+h1,h3{
+  @include lato();
+}
+h2,h4{
+  @include share();
+}

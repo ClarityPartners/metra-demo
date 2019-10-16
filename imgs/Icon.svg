@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="45px" viewBox="0 0 58 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>_Branding / Logo / Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M51.3238,1.521 L48.7808,38.725 L53.3988,38.771 C54.5408,39.818 55.4578,44.052 57.9268,44.431 L39.3468,44.479 L38.3978,43.148 C38.9688,33.645 40.8678,24.33 40.8678,15.017 C36.3068,24.709 32.0778,34.832 28.0868,44.716 L21.4808,44.859 L20.9088,44.098 C20.3388,34.024 20.1498,23.95 18.6298,14.445 L8.9348,42.196 C8.7448,43.148 9.3148,44.289 10.2668,44.479 L0.5728,44.479 L-0.0002,43.718 C4.5628,29.843 10.2668,16.347 15.2078,2.471 C15.2078,1.521 14.6368,0.902 13.8778,0.332 C17.2988,-0.427 21.0998,0.38 24.5218,0.189 C26.9918,1.33 25.8508,4.562 26.4218,6.652 C26.9918,13.304 27.1828,19.958 28.3238,26.422 L29.0828,25.471 L38.7768,2.471 C38.7768,1.521 38.2068,1.33 37.6378,0.571 C38.5888,-0.19 50.3718,0.38 50.3718,0.38 L51.3238,1.521 Z" id="path-1"></path>
+    </defs>
+    <g id="_Branding-/-Logo-/-Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Fill-1" fill="#0065A4" xlink:href="#path-1"></use>
+        <g id="_Placeholders-/-Color" mask="url(#mask-2)">
+            <g transform="translate(-46.000000, 3.000000)"></g>
+        </g>
+    </g>
+</svg>
