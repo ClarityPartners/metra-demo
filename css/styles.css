@@ -4728,7 +4728,7 @@ body.container-fluid { padding: 0; }
 
 h3 { font-size: 40px; }
 
-.quote { padding: 40px 20px; line-height: 40px; font-size: 28px; border-right: 3px dashed #005195; }
+.quote { padding: 60px 20px; line-height: 40px; font-size: 28px; border-right: 3px dashed #005195; }
 
 .content-inner { margin: 0 auto; float: none; }
 
@@ -4800,7 +4800,7 @@ header { padding: 20px 0; }
 
 .container-fluid #metra-biz { padding-bottom: 80px; }
 
-.container-fluid #metra-biz .quote { color: #d33c1d; border-color: #d33c1d; }
+.container-fluid #metra-biz .quote { color: #d33c1d; border-color: #d33c1d; padding: 95px 0; }
 
 .container-fluid #metra-biz .box_1, .container-fluid #metra-biz .box_2 { border: 10px solid #d33c1d; padding: 100px 40px; }
 
@@ -4828,7 +4828,7 @@ header { padding: 20px 0; }
 
 .container-fluid .slim .box_1 h3 { color: #005195 !important; }
 
-.container-fluid .slim .quote { color: #005195 !important; border-color: #005195; }
+.container-fluid .slim .quote { color: #005195 !important; border-color: #005195; padding: 60px 0; }
 
 .container-fluid .slim i { color: #005195; }
 
@@ -4838,7 +4838,7 @@ header { padding: 20px 0; }
 
 .container-fluid .safety .box_1 h3 { color: #d33c1d !important; }
 
-.container-fluid .safety .quote { color: #d33c1d !important; border-color: #d33c1d; }
+.container-fluid .safety .quote { color: #d33c1d !important; border-color: #d33c1d; padding: 95px 0; }
 
 .container-fluid .safety i { color: #d33c1d; }
 
