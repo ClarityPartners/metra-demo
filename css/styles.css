@@ -4716,6 +4716,8 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
+@font-face { font-family: 'fontawesome'; src: url("../metra-demo/fonts/fontawesome-webfont.ttf") format("truetype"); }
+
 h1, h3 { font-family: 'Lato', sans-serif; font-weight: 400; font-style: normal; }
 
 h2, h4 { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; }
@@ -4728,7 +4730,9 @@ h3 { font-size: 40px; }
 
 .quote { padding: 40px 20px; line-height: 40px; font-size: 28px; border-right: 1px dashed #005195; }
 
-.content-inner { margin: 0 auto; float: none; padding: 0; }
+.content-inner { margin: 0 auto; float: none; }
+
+i { font-family: 'fontwesome'; }
 
 select:not([multiple]) { -webkit-appearance: none; -moz-appearance: none; background-position: right 50%; background-repeat: no-repeat; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=); padding: .5em; padding-right: 1.5em; }
 
@@ -4758,7 +4762,7 @@ header { padding: 20px 0; }
 
 #hamburger-nav { text-align: right; padding: 0; }
 
-@media (min-width: 1200px) { .container, header { width: 1440px; } }
+@media (min-width: 1200px) { .container, header { max-width: 1440px; width: 100%; } }
 
 .container-fluid #service-alerts { background-color: #777; }
 
@@ -4812,7 +4816,7 @@ header { padding: 20px 0; }
 
 .container-fluid #metra-travel .quote { color: #312057; }
 
-.container-fluid #metra-travel .box_1 { border: 10px solid #312057; padding-bottom: 30px; }
+.container-fluid #metra-travel .box_1 { border: 10px solid #312057; padding-bottom: 30px; overflow: hidden; }
 
 .container-fluid #metra-travel .box_1 h3 { color: #312057; font-weight: 700; padding: 45% 20px 20px 20px; }
 

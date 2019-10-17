@@ -20,7 +20,7 @@
 <body class="container-fluid">
 	<header>
 		<div id="logo" class="col-md-2"><img src="../metra-demo/imgs/Full.svg"></div>
-		<div id=nav-bar class="col-md-6">
+		<div id=nav-bar class="col-md-6" aria-label="Main Menu" role="navigation">
 			<ul>
 				<li><a>Service Alerts</a><i class="fa fa-comment"></i></li>
 				<li><a>Find Next Train</a><i class="fa fa-stopwatch"></i></li>
@@ -197,7 +197,7 @@
 							<div class="col-md-2 offset col-md-offset-2">By the end of 2020, Metra will be operating all service trains with Positive Train Control (PTC).</div>
 					</div>
 					<div class="row">
-						<div class="box_1 box_slide col-md-5">
+						<div class="box_1 box_slide col-md-5" aria-live="metra travel slideshow">
 							<div class="parent-slide">
 								<h3>Metra Announces 14th Annual Safety Poster & Essay Contest</h3>
 								<button class="cta">Call To Action<i class="fa fa-chevron-right"></i></button>
@@ -278,13 +278,13 @@
 			<h3 class="col-md-4 col-md-offset-1">Hear from Metra</h3>
 			<div class="metra-social col-md-6 row">
 				<span class="col-md-6"><h4>Language</h4>
-					<select>
+					<select aria-controls="languageSelect">
 						<option>Select your language</option>
 						<option>another option</option>
 					</select>
 				</span>
 				<span class="col-md-6"><h4>Social</h4>
-					<select>
+					<select aria-controls="socialMedia">
 						<option>Choose a Line</option>
 						<option>another option</option>
 					</select>
@@ -293,8 +293,8 @@
 				<div class="metra-letter col-md-12">
 					<span><h4>Metra News Newsletter</h4>
 						<div id="submit" class="row-no-gutters">
-						<input type="text" placeholder="Email Address" class="col-md-10">
-						<input type="submit" name="Submit" class="col-md-2 submit">
+						<input type="text" placeholder="Email Address" class="col-md-10" aria-required="false" aria-describedby="">
+						<input type="submit" name="Submit" class="col-md-2 submit" aria-required="false">
 						</div>
 					</span>
 				</div>
