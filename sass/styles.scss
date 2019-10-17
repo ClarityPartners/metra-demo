@@ -22,7 +22,7 @@ h3{
 	padding:40px 20px;
 	line-height:40px;
 	font-size:28px;
-	border-right:1px dashed #005195;
+	border-right:3px dashed #005195;
 }
 .content-inner{
 	margin:0 auto;
@@ -104,8 +104,11 @@ header{
 		font-size:20px;
 	}
 }
-.offset{
-	padding:70px 0;
+.offset{ 
+	padding: 100px 60px 62px 60px;
+    border-left: 2px solid #979797;
+    margin-left: 20px;
+    margin-top: -40px;
 }
 #hamburger-nav{
 	text-align:right;
@@ -297,6 +300,10 @@ header{
 		}
 		.quote{
 			color:#005195 !important;
+			border-color:#005195;
+		}
+		i{
+			color:#005195;
 		}
 	}
 	.safety{
@@ -311,6 +318,10 @@ header{
 		}
 		.quote{
 			color:#d33c1d !important;
+			border-color:#d33c1d;
+		}
+		i{
+			color:#d33c1d;
 		}
 	}
 	#metra-news{
@@ -420,50 +431,55 @@ header{
 		}
 	}
 }
-.parent-slide{
-	display:inline-block;	
-}
-.slideshow{
-	position:relative;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-  	flex-flow: row wrap;
-    vertical-align: bottom;
+.slide-container{
+	display:flex;
 
-	.slick-list{
-		overflow:hidden;
-
-		.slide{
-			display:inline-block;
-			padding:30px;
-			min-height:130px;
-			font-size:24px;
-			text-decoration:underline;
-			background:#FFF;
-			margin:0 15px;
-			border:1px solid #CCC;
-			vertical-align:middle;
-		}
+	.parent-slide{
+		display:inline-block;	
 	}
-	button{
-		background:#FFF;
-		border:1px solid #CCC;
-		order:2;
-		padding:20px 40px;
-		font-weight:bold;
-		margin-top:40px;
+	.slideshow{
+		position:relative;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+	  	flex-flow: row wrap;
+	    vertical-align: bottom;
+	    align-self:flex-end;
 
-		&:first-child{
-			order:1;
-			margin-left:30px;
-			border-right:none;
+		.slick-list{
+			overflow:hidden;
+
+			.slide{
+				display:inline-block;
+				padding:30px;
+				min-height:130px;
+				font-size:24px;
+				text-decoration:underline;
+				background:#FFF;
+				margin:0 15px;
+				border:1px solid #CCC;
+				vertical-align:middle;
+			}
 		}
-		&:nth-child(2){
-			border-left:none;
-		}
-		i{
-			font-weight: bold;
-	    	font-size: 30px;
+		button{
+			background:#FFF;
+			border:1px solid #CCC;
+			order:2;
+			padding:20px 40px;
+			font-weight:bold;
+			margin-top:40px;
+
+			&:first-child{
+				order:1;
+				margin-left:30px;
+				border-right:none;
+			}
+			&:nth-child(2){
+				border-left:none;
+			}
+			i{
+				font-weight: bold;
+		    	font-size: 30px;
+			}
 		}
 	}
 }
