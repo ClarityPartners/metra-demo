@@ -4728,7 +4728,7 @@ body.container-fluid { padding: 0; }
 
 h3 { font-size: 40px; }
 
-.quote { padding: 60px 20px; line-height: 40px; font-size: 28px; border-right: 3px dashed #005195; }
+.quote { padding: 60px 20px; line-height: 40px; font-size: 37px; border-right: 3px dashed #005195; }
 
 .content-inner { margin: 0 auto; float: none; }
 
@@ -4806,7 +4806,7 @@ header { padding: 20px 0; }
 
 .container-fluid #metra-biz .quote { color: #d33c1d; border-color: #d33c1d; padding: 95px 0; }
 
-.container-fluid #metra-biz .box_1, .container-fluid #metra-biz .box_2 { border: 10px solid #d33c1d; padding: 100px 40px; }
+.container-fluid #metra-biz .box_1, .container-fluid #metra-biz .box_2 { border: 10px solid #d33c1d; padding: 100px 40px; -webkit-box-shadow: 0px 0px 8px 0px #d33c1d; -moz-box-shadow: 0px 0px 8px 0px #d33c1d; box-shadow: 0px 0px 8px 0px #d33c1d; }
 
 .container-fluid #metra-biz .box_1 h3, .container-fluid #metra-biz .box_2 h3 { color: #d33c1d; font-weight: 700; padding: 20px 0; }
 
@@ -4820,7 +4820,7 @@ header { padding: 20px 0; }
 
 .container-fluid #metra-travel .quote { color: #312057; }
 
-.container-fluid #metra-travel .box_1 { border: 10px solid #312057; padding-bottom: 30px; overflow: hidden; }
+.container-fluid #metra-travel .box_1 { border: 10px solid #312057; padding-bottom: 30px; overflow: hidden; -webkit-box-shadow: 0px 0px 8px 0px #312057; -moz-box-shadow: 0px 0px 8px 0px #312057; box-shadow: 0px 0px 8px 0px #312057; }
 
 .container-fluid #metra-travel .box_1 h3 { color: #312057; font-weight: 700; padding: 45% 20px 20px 20px; }
 
@@ -4828,7 +4828,7 @@ header { padding: 20px 0; }
 
 .container-fluid #metra-travel .box_1 button i.fa { color: #d33c1d; margin-left: 40px; }
 
-.container-fluid .slim .box_1 { border-color: #005195 !important; }
+.container-fluid .slim .box_1 { border-color: #005195 !important; -webkit-box-shadow: 0px 0px 8px 0px #005195 !important; -moz-box-shadow: 0px 0px 8px 0px #005195 !important; box-shadow: 0px 0px 8px 0px #005195 !important; }
 
 .container-fluid .slim .box_1 h3 { color: #005195 !important; }
 
@@ -4838,7 +4838,7 @@ header { padding: 20px 0; }
 
 .container-fluid .safety { background: none !important; }
 
-.container-fluid .safety .box_1 { border-color: #d33c1d !important; }
+.container-fluid .safety .box_1 { border-color: #d33c1d !important; -webkit-box-shadow: 0px 0px 8px 0px #d33c1d !important; -moz-box-shadow: 0px 0px 8px 0px #d33c1d !important; box-shadow: 0px 0px 8px 0px #d33c1d !important; }
 
 .container-fluid .safety .box_1 h3 { color: #d33c1d !important; }
 

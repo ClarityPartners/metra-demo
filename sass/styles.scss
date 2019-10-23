@@ -22,7 +22,7 @@ h3{
 .quote{
 	padding:60px 20px;
 	line-height:40px;
-	font-size:28px;
+	font-size:37px;
 	border-right:3px dashed #005195;
 }
 .content-inner{
@@ -239,6 +239,9 @@ header{
 		.box_1,.box_2{
 			border:10px solid #d33c1d;
 			padding:100px 40px;
+			-webkit-box-shadow: 0px 0px 8px 0px #d33c1d;
+			-moz-box-shadow: 0px 0px 8px 0px #d33c1d;
+			box-shadow: 0px 0px 8px 0px #d33c1d;
 
 			h3{
 				color:#d33c1d;
@@ -277,6 +280,9 @@ header{
 			//padding:100px 40px 20px;
 			padding-bottom:30px;
 			overflow:hidden;
+			-webkit-box-shadow: 0px 0px 8px 0px #312057;
+			-moz-box-shadow: 0px 0px 8px 0px #312057;
+			box-shadow: 0px 0px 8px 0px #312057;
 
 			h3{
 				color:#312057;
@@ -303,6 +309,9 @@ header{
 	.slim{
 		.box_1{
 			border-color:#005195 !important;
+			-webkit-box-shadow: 0px 0px 8px 0px #005195 !important;
+			-moz-box-shadow: 0px 0px 8px 0px #005195 !important;
+			box-shadow: 0px 0px 8px 0px #005195 !important;
 		
 			h3{
 				color:#005195 !important;
@@ -317,11 +326,14 @@ header{
 			color:#005195;
 		}
 	}
-	.safety{
+	.safety{ 
 		background:none !important;
 
 		.box_1{
 			border-color:#d33c1d !important;
+			-webkit-box-shadow: 0px 0px 8px 0px #d33c1d !important;
+			-moz-box-shadow: 0px 0px 8px 0px #d33c1d !important;
+			box-shadow: 0px 0px 8px 0px #d33c1d !important;
 
 			h3{
 				color:#d33c1d !important;
