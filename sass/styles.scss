@@ -10,6 +10,7 @@
 
 body{
 	@include lato();
+    font-size:22px;
 
 	&.container-fluid{
 		padding:0;
@@ -113,6 +114,11 @@ header{
 #hamburger-nav{
 	text-align:right;
 	padding:0;
+    
+    span{
+        line-height:47px;
+        vertical-align: top;
+    }
 }
 //body 
 .container{
@@ -172,6 +178,9 @@ header{
 					}
 				}
 				.alert-copy{
+                    h2{
+                        margin-top:0;
+                    }
 					.alert-msg{
 						background-color:#FFF;
 						border:1px solid #CCC;

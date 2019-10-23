@@ -4722,7 +4722,7 @@ h1, h3 { font-family: 'Lato', sans-serif; font-weight: 400; font-style: normal; 
 
 h2, h4 { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; }
 
-body { font-family: 'Lato', sans-serif; font-weight: 400; font-style: normal; }
+body { font-family: 'Lato', sans-serif; font-weight: 400; font-style: normal; font-size: 22px; }
 
 body.container-fluid { padding: 0; }
 
@@ -4762,6 +4762,8 @@ header { padding: 20px 0; }
 
 #hamburger-nav { text-align: right; padding: 0; }
 
+#hamburger-nav span { line-height: 47px; vertical-align: top; }
+
 @media (min-width: 1200px) { .container, header { max-width: 1440px; width: 100%; } }
 
 .container-fluid #service-alerts { background-color: #777; }
@@ -4781,6 +4783,8 @@ header { padding: 20px 0; }
 .container-fluid .content .content-inner .service-alerts ul.alert-menu li { background-color: #FFF; border: 1px solid #CCC; padding: 10px 15px; margin-bottom: 10px; display: block; }
 
 .container-fluid .content .content-inner .service-alerts ul.alert-menu li:first-child { border-color: #005195; border-width: 3px; }
+
+.container-fluid .content .content-inner .service-alerts .alert-copy h2 { margin-top: 0; }
 
 .container-fluid .content .content-inner .service-alerts .alert-copy .alert-msg { background-color: #FFF; border: 1px solid #CCC; padding: 20px; margin-bottom: 10px; }
 
