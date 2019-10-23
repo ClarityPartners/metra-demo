@@ -4726,9 +4726,9 @@ body { font-family: 'Lato', sans-serif; font-weight: 400; font-style: normal; fo
 
 body.container-fluid { padding: 0; }
 
-h3 { font-size: 40px; }
+h3 { font-size: 40px; font-weight: 700; }
 
-.quote { padding: 60px 20px; line-height: 40px; font-size: 37px; border-right: 3px dashed #005195; }
+.quote { padding: 60px 20px; line-height: 1.25em; font-size: 37px; border-right: 3px dashed #005195; padding-left: 0; }
 
 .content-inner { margin: 0 auto; float: none; }
 
@@ -4744,7 +4744,7 @@ header { padding: 20px 0; }
 
 .news { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; float: right; line-height: 30px; text-transform: uppercase; text-align: right; font-size: 20px; text-decoration: underline; color: #999; }
 
-.news-title { margin: 0; }
+.news-title { padding-left: 0; margin: 0; }
 
 #nav-bar ul { display: block; padding: 0; }
 
@@ -4762,11 +4762,11 @@ header { padding: 20px 0; }
 
 #hamburger-nav { text-align: right; padding: 0; }
 
-#hamburger-nav span { line-height: 47px; vertical-align: top; }
+#hamburger-nav span { line-height: 47px; vertical-align: top; font-size: 16px; }
 
 @media (min-width: 1200px) { .container, header { max-width: 1440px; width: 100%; } }
 
-.container-fluid #service-alerts { background-color: #777; }
+.container-fluid .service-alerts h2 { margin-top: 0; }
 
 .container-fluid #main-image { padding: 12% 80px; }
 
@@ -4784,7 +4784,9 @@ header { padding: 20px 0; }
 
 .container-fluid .content .content-inner .service-alerts ul.alert-menu li:first-child { border-color: #005195; border-width: 3px; }
 
-.container-fluid .content .content-inner .service-alerts .alert-copy h2 { margin-top: 0; }
+.container-fluid .content .content-inner .service-alerts .alert-copy h2 { margin-top: 40px; }
+
+.container-fluid .content .content-inner .service-alerts .alert-copy h2:first-child { margin-top: 0; }
 
 .container-fluid .content .content-inner .service-alerts .alert-copy .alert-msg { background-color: #FFF; border: 1px solid #CCC; padding: 20px; margin-bottom: 10px; }
 
@@ -4792,7 +4794,7 @@ header { padding: 20px 0; }
 
 .container-fluid .content .content-inner .service-alerts .alert-copy .alert-msg span:first-child { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; }
 
-.container-fluid .content .content-inner .service-alerts .alert-copy .alert-msg span:nth-child(2) { font-weight: 700; color: #005195; font-size: 20px; border-bottom: 1px solid #ececec; padding: 10px 0; margin-bottom: 10px; }
+.container-fluid .content .content-inner .service-alerts .alert-copy .alert-msg span:nth-child(2) { font-weight: 700; color: #005195; font-size: 1.25em; border-bottom: 1px solid #ececec; padding: 10px 0; margin-bottom: 10px; }
 
 .container-fluid #contact-box { background-color: #005195; }
 

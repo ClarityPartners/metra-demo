@@ -18,12 +18,14 @@ body{
 }
 h3{
 	font-size: 40px;
+	font-weight:700;
 }
 .quote{
 	padding:60px 20px;
-	line-height:40px;
+	line-height:1.25em;
 	font-size:37px;
 	border-right:3px dashed #005195;
+	padding-left:0;
 }
 .content-inner{
 	margin:0 auto;
@@ -70,6 +72,7 @@ header{
 	color:#999;
 }
 .news-title{
+	padding-left:0;
 	margin:0;
 }
 #nav-bar{
@@ -118,6 +121,7 @@ header{
     span{
         line-height:47px;
         vertical-align: top;
+        font-size: 16px;
     }
 }
 //body 
@@ -129,8 +133,11 @@ header{
 }
 .container-fluid{
 	
-	#service-alerts{
-		background-color:#777;
+	.service-alerts{
+
+		h2{
+			margin-top:0; 
+		}
 	}
 
 	#main-image{
@@ -179,7 +186,11 @@ header{
 				}
 				.alert-copy{
                     h2{
-                        margin-top:0;
+                        margin-top:40px;
+
+                        &:first-child{
+                        	margin-top:0;
+                    	}
                     }
 					.alert-msg{
 						background-color:#FFF;
@@ -196,7 +207,7 @@ header{
 							&:nth-child(2){
 								font-weight:700;
 								color:#005195;
-								font-size:20px;
+								font-size:1.25em;
 								border-bottom:1px solid #ececec;
 								padding:10px 0;
 								margin-bottom:10px;
