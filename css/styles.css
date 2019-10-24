@@ -4812,7 +4812,7 @@ header { padding: 20px 0; }
 
 .container-fluid #metra-biz .box_1 h3, .container-fluid #metra-biz .box_2 h3 { color: #d33c1d; font-weight: 700; padding: 20px 0; }
 
-.container-fluid #metra-biz .box_1 button, .container-fluid #metra-biz .box_2 button { background: none; border: 2px solid #CCC; text-align: center; text-transform: uppercase; width: 80%; padding: 10px 0; font-weight: 700; }
+.container-fluid #metra-biz .box_1 button, .container-fluid #metra-biz .box_2 button { background: none; border: 2px solid #CCC; text-align: center; text-transform: uppercase; width: 85%; padding: 10px 0; font-weight: 700; }
 
 .container-fluid #metra-biz .box_1 button i.fa, .container-fluid #metra-biz .box_2 button i.fa { color: #d33c1d; margin-left: 40px; }
 
@@ -4826,7 +4826,7 @@ header { padding: 20px 0; }
 
 .container-fluid #metra-travel .box_1 #logo-box { padding: 10px 0; }
 
-.container-fluid #metra-travel .box_1 h3 { color: #312057; font-weight: 700; padding: 45% 20px 20px 20px; }
+.container-fluid #metra-travel .box_1 h3 { color: #312057; font-weight: 700; padding: 45% 20px 20px 0px; }
 
 .container-fluid #metra-travel .box_1 button { background: none; border: 2px solid #CCC; text-align: center; text-transform: uppercase; width: 80%; padding: 10px 0; font-weight: 700; }
 
