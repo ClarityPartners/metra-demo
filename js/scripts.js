@@ -6,13 +6,13 @@ jQuery(window).on('load',function(){
 		fade: true,
 		asNavFor: '.slideshow'
 	});
-
+ 
 	$('.slideshow').slick({
 	  slidesToShow: 2,
 	  slidesToScroll: 1,
 	  autoplay: false,
 	  centerMode: true,
-	  asNavFor: '.box_slide',
+	  //asNavFor: '.box_slide',
 	  infinite: true,
 	  prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
       nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
