@@ -230,6 +230,7 @@ header{
 
 			h3{
 				font-size:40px;
+				margin-top:0; 
 			}
 			.phone-num{
 				@include share();

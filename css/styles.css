@@ -4800,7 +4800,7 @@ header { padding: 20px 0; }
 
 .container-fluid #contact-box .content-inner { color: #FFF; padding: 80px 0; }
 
-.container-fluid #contact-box .content-inner h3 { font-size: 40px; }
+.container-fluid #contact-box .content-inner h3 { font-size: 40px; margin-top: 0; }
 
 .container-fluid #contact-box .content-inner .phone-num { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; font-size: 32px; color: #FFF; text-decoration: underline; }
 
