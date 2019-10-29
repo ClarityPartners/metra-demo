@@ -4752,11 +4752,11 @@ header { padding: 20px 0; }
 
 #nav-bar ul li a { color: #000; line-height: 45px; font-size: 16px; }
 
-#nav-bar i { padding-left: 20px; font-size: 20px; }
+#nav-bar img { padding-left: 20px; font-size: 20px; }
 
 #search { color: #000; line-height: 45px; font-size: 16px; text-align: right; }
 
-#search i { padding-left: 20px; font-size: 20px; }
+#search img { padding-left: 20px; font-size: 20px; }
 
 .offset { padding: 160px 60px 0px 60px; border-left: 2px solid #979797; margin-left: 30px; margin-top: -40px; }
 
@@ -4886,7 +4886,9 @@ header { padding: 20px 0; }
 
 #footer .footer-middle { padding: 60px 0; color: #FFF; margin: 0; background-color: #533a8c; }
 
-#footer .footer-middle h4 { font-size: 25px; }
+#footer .footer-middle h4 { font-size: 25px; display: inline-block; }
+
+#footer .footer-middle span.social { display: inline-block; float: right; }
 
 #footer .footer-middle a { color: #FFF; }
 

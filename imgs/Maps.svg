@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>_Icons / Maps</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23.085744,3.048336 L17.333424,5.666736 L17.333424,21.666576 L23.161584,19.335696 C23.667984,19.133136 23.999664,18.642576 23.999664,18.097776 L23.999664,3.667536 C23.999664,3.195696 23.523504,2.873136 23.085744,3.048336 L23.085744,3.048336 Z M7.999824,18.999696 L15.999984,21.666576 L15.999984,5.666736 L7.999824,2.999856 L7.999824,18.999696 Z M-0.000336,6.569136 L-0.000336,20.998896 C-0.000336,21.470736 0.475824,21.793296 0.914544,21.618576 L6.666864,18.999696 L6.666864,2.999856 L0.838224,5.331216 C0.332304,5.533776 0.000144,6.023856 -0.000336,6.569136 L-0.000336,6.569136 Z" id="path-1"></path>
+    </defs>
+    <g id="_Icons-/-Maps" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Fill-1" fill="#000000" xlink:href="#path-1"></use>
+        <g id="_Placeholders-/-Color" mask="url(#mask-2)"></g>
+    </g>
+</svg>
