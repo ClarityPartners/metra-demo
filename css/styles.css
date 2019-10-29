@@ -4722,13 +4722,13 @@ h1, h3 { font-family: 'Lato', sans-serif; font-weight: 400; font-style: normal; 
 
 h2, h4 { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; }
 
-body { font-family: 'Lato', sans-serif; font-weight: 400; font-style: normal; font-size: 22px; }
+body { font-family: 'Lato', sans-serif; font-weight: 400; font-style: normal; font-size: 22px; -webkit-font-smoothing: antialiased; }
 
 body.container-fluid { padding: 0; }
 
 h3 { font-size: 40px; font-weight: 700; }
 
-.quote { padding: 60px 20px; line-height: 1.25em; font-size: 37px; border-right: 3px dashed #005195; padding-left: 0; }
+.quote { margin: 100px 20px 0; line-height: 1.5em; font-size: 37px; border-right: 2px dashed #005195; padding-left: 0; padding-bottom: 100px; margin-left: 0; }
 
 .content-inner { margin: 0 auto; float: none; }
 
@@ -4758,7 +4758,7 @@ header { padding: 20px 0; }
 
 #search i { padding-left: 20px; font-size: 20px; }
 
-.offset { padding: 100px 60px 62px 60px; border-left: 2px solid #979797; margin-left: 20px; margin-top: -40px; }
+.offset { padding: 160px 60px 0px 60px; border-left: 2px solid #979797; margin-left: 30px; margin-top: -40px; }
 
 #hamburger-nav { text-align: right; padding: 0; }
 
@@ -4768,15 +4768,21 @@ header { padding: 20px 0; }
 
 .container-fluid .service-alerts h2 { margin-top: 0; }
 
+.container-fluid .service-alerts.lower { border-left: 2px dashed #979797; margin-left: -75px; padding-left: 45px; }
+
+.container-fluid .service-alerts.lower .alert-copy { padding-right: 30px; }
+
+.container-fluid .service-alerts.lower h2 { padding-bottom: 30px; margin-bottom: 0; }
+
 .container-fluid #main-image { padding: 12% 80px; }
 
-.container-fluid #main-image .overlay-text { font-size: 80px; color: #FFF; }
+.container-fluid #main-image .overlay-text { font-size: 80px; color: #FFF; font-weight: 700; }
 
 .container-fluid .content { background-color: #f8f8f8; padding-bottom: 150px; }
 
 .container-fluid .content .content-inner #metra-alerts .quote { color: #005195; }
 
-.container-fluid .content .content-inner .service-alerts h3 { font-weight: 700; color: #005195; font-size: 40px; }
+.container-fluid .content .content-inner .service-alerts h3 { font-weight: 700; color: #005195; font-size: 40px; padding: 30px 0; }
 
 .container-fluid .content .content-inner .service-alerts ul.alert-menu { display: block; margin: 0; padding: 0; }
 
@@ -4786,9 +4792,9 @@ header { padding: 20px 0; }
 
 .container-fluid .content .content-inner .service-alerts .alert-copy h2 { margin-top: 40px; }
 
-.container-fluid .content .content-inner .service-alerts .alert-copy h2:first-child { margin-top: 0; }
+.container-fluid .content .content-inner .service-alerts .alert-copy h2:first-child { margin-top: 0; padding: 15px 0; }
 
-.container-fluid .content .content-inner .service-alerts .alert-copy .alert-msg { background-color: #FFF; border: 1px solid #CCC; padding: 20px; margin-bottom: 10px; }
+.container-fluid .content .content-inner .service-alerts .alert-copy .alert-msg { background-color: #FFF; border: 1px solid #CCC; padding: 20px; margin-bottom: 20px; }
 
 .container-fluid .content .content-inner .service-alerts .alert-copy .alert-msg span { display: block; }
 
@@ -4798,35 +4804,35 @@ header { padding: 20px 0; }
 
 .container-fluid #contact-box { background-color: #005195; }
 
-.container-fluid #contact-box .content-inner { color: #FFF; padding: 80px 0; }
+.container-fluid #contact-box .content-inner { color: #FFF; padding: 100px 0; }
 
-.container-fluid #contact-box .content-inner h3 { font-size: 40px; margin-top: 0; }
+.container-fluid #contact-box .content-inner h3 { font-size: 40px; margin-top: 0; padding: 30px 0; }
 
 .container-fluid #contact-box .content-inner .phone-num { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; font-size: 32px; color: #FFF; text-decoration: underline; }
 
 .container-fluid #metra-biz { padding-bottom: 80px; }
 
-.container-fluid #metra-biz .quote { color: #d33c1d; border-color: #d33c1d; padding: 95px 0; }
+.container-fluid #metra-biz .quote { color: #d33c1d; border-color: #d33c1d; }
 
-.container-fluid #metra-biz .box_1, .container-fluid #metra-biz .box_2 { border: 10px solid #d33c1d; padding: 100px 40px; -webkit-box-shadow: 0px 0px 8px 0px #d33c1d; -moz-box-shadow: 0px 0px 8px 0px #d33c1d; box-shadow: 0px 0px 8px 0px #d33c1d; }
+.container-fluid #metra-biz .box_1, .container-fluid #metra-biz .box_2 { border: 10px solid #d33c1d; padding: 100px 40px; -webkit-box-shadow: 0px 0px 8px 0px #d33c1d; -moz-box-shadow: 0px 0px 8px 0px #d33c1d; box-shadow: 0px 0px 8px 0px #d33c1d; background-color: #FFF; }
 
-.container-fluid #metra-biz .box_1 h3, .container-fluid #metra-biz .box_2 h3 { color: #d33c1d; font-weight: 700; padding: 20px 0; }
+.container-fluid #metra-biz .box_1 h3, .container-fluid #metra-biz .box_2 h3 { color: #d33c1d; font-weight: 700; padding: 0; margin: 0; margin-bottom: 20px; }
 
-.container-fluid #metra-biz .box_1 button, .container-fluid #metra-biz .box_2 button { background: none; border: 2px solid #CCC; text-align: center; text-transform: uppercase; width: 85%; padding: 10px 0; font-weight: 700; }
+.container-fluid #metra-biz .box_1 button, .container-fluid #metra-biz .box_2 button { background: none; border: 2px solid #CCC; text-align: center; text-transform: uppercase; width: 85%; padding: 10px 0; font-weight: 700; margin-top: 20px; }
 
 .container-fluid #metra-biz .box_1 button i.fa, .container-fluid #metra-biz .box_2 button i.fa { color: #d33c1d; margin-left: 40px; }
 
 .container-fluid #metra-biz .box_2 { margin-top: 200px; margin-left: -10px; }
 
-.container-fluid #metra-travel { background-color: #f8f8f8; padding-bottom: 80px; }
+.container-fluid #metra-travel { background-color: #f8f8f8; padding-bottom: 100px; }
 
-.container-fluid #metra-travel .quote { color: #312057; }
+.container-fluid #metra-travel .quote { color: #312057; border-color: #312057; margin-left: 0; }
 
-.container-fluid #metra-travel .box_1 { border: 10px solid #312057; padding-bottom: 30px; overflow: hidden; -webkit-box-shadow: 0px 0px 8px 0px #312057; -moz-box-shadow: 0px 0px 8px 0px #312057; box-shadow: 0px 0px 8px 0px #312057; }
+.container-fluid #metra-travel .box_1 { border: 10px solid #312057; padding: 40px; overflow: hidden; -webkit-box-shadow: 0px 0px 8px 0px #312057; -moz-box-shadow: 0px 0px 8px 0px #312057; box-shadow: 0px 0px 8px 0px #312057; background-color: #FFF; }
 
-.container-fluid #metra-travel .box_1 #logo-box { padding: 10px 0; }
+.container-fluid #metra-travel .box_1 #logo-box { padding: 0 0 100px 0; }
 
-.container-fluid #metra-travel .box_1 h3 { color: #312057; font-weight: 700; padding: 45% 20px 20px 0px; }
+.container-fluid #metra-travel .box_1 h3 { color: #312057; font-weight: 700; padding: 45% 20px 20px 0px; padding: 30px 0; }
 
 .container-fluid #metra-travel .box_1 button { background: none; border: 2px solid #CCC; text-align: center; text-transform: uppercase; width: 80%; padding: 10px 0; font-weight: 700; }
 
@@ -4834,9 +4840,13 @@ header { padding: 20px 0; }
 
 .container-fluid .slim .box_1 { border-color: #005195 !important; -webkit-box-shadow: 0px 0px 8px 0px #005195 !important; -moz-box-shadow: 0px 0px 8px 0px #005195 !important; box-shadow: 0px 0px 8px 0px #005195 !important; }
 
-.container-fluid .slim .box_1 h3 { color: #005195 !important; }
+.container-fluid .slim .box_1 h3 { color: #005195 !important; max-width: 250px; }
 
-.container-fluid .slim .quote { color: #005195 !important; border-color: #005195; padding: 60px 0; }
+.container-fluid .slim .box_1 button { width: 62% !important; margin-top: 50px; }
+
+.container-fluid .slim .box_1 button i { margin-left: 15px !important; }
+
+.container-fluid .slim .quote { color: #005195 !important; border-color: #005195 !important; }
 
 .container-fluid .slim i { color: #005195; }
 
@@ -4846,7 +4856,9 @@ header { padding: 20px 0; }
 
 .container-fluid .safety .box_1 h3 { color: #d33c1d !important; }
 
-.container-fluid .safety .quote { color: #d33c1d !important; border-color: #d33c1d; padding: 95px 0; }
+.container-fluid .safety .box_1 button { margin-top: 50px; }
+
+.container-fluid .safety .quote { color: #d33c1d !important; border-color: #d33c1d !important; }
 
 .container-fluid .safety i { color: #d33c1d; }
 
@@ -4856,13 +4868,15 @@ header { padding: 20px 0; }
 
 .container-fluid #metra-news ul.alert-menu li { background-color: #FFF; border: 1px solid #CCC; padding: 10px 15px; margin-bottom: 10px; display: block; text-decoration: underline; }
 
-.container-fluid .alert-copy .alert-msg { background-color: #FFF; border: 1px solid #CCC; padding: 20px; margin-bottom: 10px; }
+.container-fluid .alert-copy .alert-msg { background-color: #FFF; border: 1px solid #CCC; padding: 20px; margin-bottom: 20px; }
 
 .container-fluid .alert-copy .alert-msg span { display: block; }
 
 .container-fluid .alert-copy .alert-msg span:first-child { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; }
 
-.container-fluid .alert-copy .alert-msg span:nth-child(2) { color: #005195; font-size: 20px; border-bottom: 1px solid #ececec; padding: 10px 0; margin-bottom: 10px; }
+.container-fluid .alert-copy .alert-msg span:nth-child(2) { color: #005195; font-size: 1.25em; font-weight: 700; border-bottom: 1px solid #ececec; padding: 10px 0; margin-bottom: 10px; }
+
+.container-fluid .alert-copy .alert-msg span i { color: #d33c1d; margin-left: 12px; }
 
 #footer .footer-upper { padding: 60px 0; color: #FFF; background-color: #005195; margin: 0; }
 
@@ -4882,7 +4896,7 @@ header { padding: 20px 0; }
 
 #footer .footer-middle .metra-letter input { padding: .5em; }
 
-#footer .footer-middle .metra-letter input.submit { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; background: none; border: 1px solid #FFF; text-transform: uppercase; font-size: 18px; line-height: 17px; }
+#footer .footer-middle .metra-letter input.submit { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; background: none; border: 1px solid #FFF; text-transform: uppercase; font-size: 18px; line-height: 17px; padding: 19px; }
 
 #footer .footer-lower { padding: 60px 0; }
 
@@ -4905,3 +4919,9 @@ header { padding: 20px 0; }
 .slide-container .slideshow button:nth-child(2) { border-left: none; }
 
 .slide-container .slideshow button i { font-weight: bold; font-size: 30px; }
+
+.phone-number { padding-top: 35px; }
+
+.metra-social { padding: 0; }
+
+.copywrite { font-size: 16px; }

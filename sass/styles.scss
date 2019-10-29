@@ -11,6 +11,7 @@
 body{
 	@include lato();
     font-size:22px;
+    -webkit-font-smoothing:antialiased;
 
 	&.container-fluid{
 		padding:0;
@@ -21,11 +22,13 @@ h3{
 	font-weight:700;
 }
 .quote{
-	padding:60px 20px;
-	line-height:1.25em;
+	margin:100px 20px 0;
+	line-height:1.5em;
 	font-size:37px;
-	border-right:3px dashed #005195;
+	border-right:2px dashed #005195;
 	padding-left:0;
+	padding-bottom:100px;
+	margin-left:0;
 }
 .content-inner{
 	margin:0 auto;
@@ -73,6 +76,7 @@ header{
 }
 .news-title{
 	padding-left:0;
+	//padding-bottom:30px;
 	margin:0;
 }
 #nav-bar{
@@ -109,9 +113,9 @@ header{
 	}
 }
 .offset{ 
-	padding: 100px 60px 62px 60px;
+	padding: 160px 60px 0px 60px;
     border-left: 2px solid #979797;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: -40px;
 }
 #hamburger-nav{
@@ -138,6 +142,19 @@ header{
 		h2{
 			margin-top:0; 
 		}
+		&.lower{
+		border-left: 2px dashed #979797;
+	    margin-left: -75px;
+	    padding-left: 45px;
+		
+		.alert-copy{
+			padding-right:30px;
+		}
+		h2{
+			padding-bottom:30px;
+			margin-bottom:0;
+		}
+	}
 	}
 
 	#main-image{
@@ -146,6 +163,7 @@ header{
 		.overlay-text{
 			font-size:80px;
 			color:#FFF;
+			font-weight:700;
 		}
 	}
 	.content{
@@ -165,6 +183,7 @@ header{
 					font-weight:700;
 					color:#005195;
 					font-size:40px;
+					padding:30px 0;
 				}
 				ul.alert-menu{
 					display:block;
@@ -190,13 +209,14 @@ header{
 
                         &:first-child{
                         	margin-top:0;
+                        	padding:15px 0;
                     	}
                     }
 					.alert-msg{
 						background-color:#FFF;
 						border:1px solid #CCC;
 						padding:20px;
-						margin-bottom:10px;
+						margin-bottom:20px;
 
 						span{
 							display:block;
@@ -226,11 +246,12 @@ header{
 
 		.content-inner{
 			color:#FFF;
-			padding:80px 0;
+			padding:100px 0;
 
 			h3{
 				font-size:40px;
 				margin-top:0; 
+				padding:30px 0;
 			}
 			.phone-num{
 				@include share();
@@ -246,7 +267,7 @@ header{
 		.quote{
 			color:#d33c1d;
 			border-color:#d33c1d;
-			padding:95px 0;
+			//padding:95px 0;
 		}
 		.box_1,.box_2{
 			border:10px solid #d33c1d;
@@ -254,11 +275,15 @@ header{
 			-webkit-box-shadow: 0px 0px 8px 0px #d33c1d;
 			-moz-box-shadow: 0px 0px 8px 0px #d33c1d;
 			box-shadow: 0px 0px 8px 0px #d33c1d;
+			background-color:#FFF;
 
 			h3{
 				color:#d33c1d;
 				font-weight:700;
-				padding:20px 0;
+				//padding:20px 0;
+				padding: 0;
+			    margin: 0;
+			    margin-bottom: 20px;
 			}
 			button{
 				background:none;
@@ -268,6 +293,7 @@ header{
 				width:85%;
 				padding:10px 0;
 				font-weight:700;
+				margin-top:20px;
 
 				i.fa{
 					color:#d33c1d;
@@ -282,28 +308,32 @@ header{
 	}
 	#metra-travel{
 		background-color:#f8f8f8;
-		padding-bottom:80px;
+		padding-bottom:100px;
 
 		.quote{
 			color:#312057;
+			border-color:#312057;
+			margin-left:0;
 		}
 		.box_1{
 			border:10px solid #312057;
 			//padding:100px 40px 20px;
-			padding-bottom:30px;
+			padding:40px;
 			overflow:hidden;
 			-webkit-box-shadow: 0px 0px 8px 0px #312057;
 			-moz-box-shadow: 0px 0px 8px 0px #312057;
 			box-shadow: 0px 0px 8px 0px #312057;
+			background-color:#FFF;
             
             #logo-box{
-                padding:10px 0;
+                padding:0 0 100px 0;
             }
 
 			h3{
 				color:#312057;
 				font-weight:700;
 				padding:45% 20px 20px 0px;
+				padding:30px 0;
 			}
 			button{
 				background:none;
@@ -331,12 +361,20 @@ header{
 		
 			h3{
 				color:#005195 !important;
+				max-width:250px;
+			}
+			button{
+			width:62% !important;
+			margin-top:50px;
+
+			i{
+				margin-left:15px !important;
+			}
 			}
 		}
 		.quote{
-			color:#005195 !important;
-			border-color:#005195;
-			padding:60px 0;
+			color:#005195 !important; 
+			border-color:#005195 !important; 
 		}
 		i{
 			color:#005195;
@@ -354,11 +392,14 @@ header{
 			h3{
 				color:#d33c1d !important;
 			}
+			button{
+			//width:62% !important;
+			margin-top:50px;
+			}
 		}
 		.quote{
 			color:#d33c1d !important;
-			border-color:#d33c1d;
-			padding:95px 0;
+			border-color:#d33c1d !important;
 		}
 		i{
 			color:#d33c1d;
@@ -393,7 +434,7 @@ header{
 			background-color:#FFF;
 			border:1px solid #CCC;
 			padding:20px;
-			margin-bottom:10px;
+			margin-bottom:20px;
 
 			span{
 				display:block;
@@ -404,13 +445,18 @@ header{
 				&:nth-child(2){
 					
 					color:#005195;
-					font-size:20px;
+					font-size: 1.25em;
+					font-weight:700;
 					border-bottom:1px solid #ececec;
 					padding:10px 0;
 					margin-bottom:10px;
 				}
 				&:last-child{
 
+				}
+				i{
+					color:#d33c1d;
+					margin-left:12px;
 				}
 			}
 		}
@@ -458,6 +504,7 @@ header{
 					text-transform:uppercase;
 					font-size:18px;
 					line-height:17px;
+					padding: 19px;
 				}
 			}
 		}
@@ -522,4 +569,13 @@ header{
 			}
 		}
 	}
+}
+.phone-number{
+	padding-top:35px;
+}
+.metra-social{
+	padding:0;
+}
+.copywrite{
+	font-size:16px;
 }
