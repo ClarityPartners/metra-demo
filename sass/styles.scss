@@ -1,11 +1,11 @@
 //base
 @import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
 @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets"; 
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
 //@import "../node_modules/bootstrap/scss/bootstrap-grid";
 
 //typography
-@import "../node_modules/sass-font-awesome/font-awesome"; 
+@import "../node_modules/sass-font-awesome/font-awesome";
 @import "typography";
 
 body{
@@ -106,29 +106,34 @@ header{
 	line-height:45px;
 	font-size:16px;
 	text-align:right;
-	
+
 	img{
 		padding-left:20px;
 		font-size:20px;
 	}
 }
-.offset{ 
+.offset{
 	padding: 160px 60px 0px 60px;
     border-left: 2px solid #979797;
     margin-left: 30px;
     margin-top: -40px;
 }
 #hamburger-nav{
-	text-align:right;
-	padding:0;
-    
+	color: #000;
+	line-height: 45px;
+	font-size: 16px;
+	text-align: right;
+
     span{
-        line-height:47px;
-        vertical-align: top;
+        //line-height:47px;
+        //vertical-align: top;
         font-size: 16px;
-    }
+		}
+		img{
+			padding-left:20px;
+		}
 }
-//body 
+//body
 .container{
 	@media (min-width: 1200px){
 		max-width:1440px;
@@ -136,17 +141,17 @@ header{
 	}
 }
 .container-fluid{
-	
+
 	.service-alerts{
 
 		h2{
-			margin-top:0; 
+			margin-top:0;
 		}
 		&.lower{
 		border-left: 2px dashed #979797;
 	    margin-left: -75px;
 	    padding-left: 45px;
-		
+
 		.alert-copy{
 			padding-right:30px;
 		}
@@ -159,7 +164,7 @@ header{
 
 	#main-image{
 		padding:12% 80px;
-		
+
 		.overlay-text{
 			font-size:80px;
 			color:#FFF;
@@ -176,7 +181,7 @@ header{
 				.quote{
 					color:#005195;
 				}
-				
+
 			}
 			.service-alerts{
 				h3{
@@ -250,7 +255,7 @@ header{
 
 			h3{
 				font-size:40px;
-				margin-top:0; 
+				margin-top:0;
 				padding:30px 0;
 			}
 			.phone-num{
@@ -324,7 +329,7 @@ header{
 			-moz-box-shadow: 0px 0px 8px 0px #312057;
 			box-shadow: 0px 0px 8px 0px #312057;
 			background-color:#FFF;
-            
+
             #logo-box{
                 padding:0 0 100px 0;
             }
@@ -358,29 +363,29 @@ header{
 			-webkit-box-shadow: 0px 0px 8px 0px #005195 !important;
 			-moz-box-shadow: 0px 0px 8px 0px #005195 !important;
 			box-shadow: 0px 0px 8px 0px #005195 !important;
-		
+
 			h3{
 				color:#005195 !important;
 				max-width:250px;
 			}
 			button{
-			width:62% !important;
+			width:100% !important;
 			margin-top:50px;
-
+			max-width:255px; //slide not play nice with percentage
 			i{
 				margin-left:15px !important;
 			}
 			}
 		}
 		.quote{
-			color:#005195 !important; 
-			border-color:#005195 !important; 
+			color:#005195 !important;
+			border-color:#005195 !important;
 		}
 		i{
 			color:#005195;
 		}
 	}
-	.safety{ 
+	.safety{
 		background:none !important;
 
 		.box_1{
@@ -443,7 +448,7 @@ header{
 					@include share();
 				}
 				&:nth-child(2){
-					
+
 					color:#005195;
 					font-size: 1.25em;
 					font-weight:700;
@@ -477,18 +482,18 @@ header{
 	.footer-middle{
 		padding:60px 0;
 		color:#FFF;
-		margin:0;	
+		margin:0;
 		background-color:#533a8c;
 
 		h4{
 			font-size:25px;
-			display:inline-block;	
+			display:inline-block;
 		}
 		span.social{
 			display:inline-block;
 			float: right;
 		}
-		a{color:#FFF;} 
+		a{color:#FFF;}
 
 		select{
 			border-radius:0;
@@ -516,7 +521,7 @@ header{
 	}
 	.footer-lower{
 		padding:60px 0;
-		
+
 		.policy{
 			@include share();
 			font-size:26px;
@@ -527,7 +532,7 @@ header{
 	display:flex;
 
 	.parent-slide{
-		display:inline-block;	
+		display:inline-block;
 	}
 	.slideshow{
 		position:relative;
