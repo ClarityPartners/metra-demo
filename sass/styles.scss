@@ -169,6 +169,7 @@ header{
 			font-size:80px;
 			color:#FFF;
 			font-weight:700;
+			text-shadow: 0px 0px 8px #333;
 		}
 	}
 	.content{
@@ -205,10 +206,21 @@ header{
 						&:first-child{
 							border-color:#005195;
 							border-width:3px;
+							font-weight:700;
+
+							span{
+								color:#005195;
+							}
+						}
+						span{
+							float:right;
+							font-style: italic;
 						}
 					}
 				}
 				.alert-copy{
+					padding-left:30px;
+
                     h2{
                         margin-top:40px;
 
@@ -263,6 +275,22 @@ header{
 				font-size:32px;
 				color:#FFF;
 				text-decoration:underline;
+			}
+			button{
+				background:none;
+				border:2px solid #CCC;
+				text-align:center;
+				text-transform:uppercase;
+				width:100%;
+				max-width: 300px;
+				padding:10px 0;
+				font-weight:700;
+				margin-top:20px;
+
+				i.fa{
+					color:#d33c1d;
+					margin-left:40px;
+				}
 			}
 		}
 	}
@@ -478,6 +506,22 @@ header{
 			font-size:25px;
 		}
 		a{color:#FFF;}
+		button{
+				background:none;
+				border:2px solid #CCC;
+				text-align:center;
+				text-transform:uppercase;
+				width:100%;
+				max-width: 300px;
+				padding:10px 0;
+				font-weight:700;
+				margin-top:20px;
+
+				i.fa{
+					color:#d33c1d;
+					margin-left:40px;
+				}
+			}
 	}
 	.footer-middle{
 		padding:60px 0;

@@ -4778,7 +4778,7 @@ header { padding: 20px 0; }
 
 .container-fluid #main-image { padding: 12% 80px; }
 
-.container-fluid #main-image .overlay-text { font-size: 80px; color: #FFF; font-weight: 700; }
+.container-fluid #main-image .overlay-text { font-size: 80px; color: #FFF; font-weight: 700; text-shadow: 0px 0px 8px #333; }
 
 .container-fluid .content { background-color: #f8f8f8; padding-bottom: 150px; }
 
@@ -4790,7 +4790,13 @@ header { padding: 20px 0; }
 
 .container-fluid .content .content-inner .service-alerts ul.alert-menu li { background-color: #FFF; border: 1px solid #CCC; padding: 10px 15px; margin-bottom: 10px; display: block; }
 
-.container-fluid .content .content-inner .service-alerts ul.alert-menu li:first-child { border-color: #005195; border-width: 3px; }
+.container-fluid .content .content-inner .service-alerts ul.alert-menu li:first-child { border-color: #005195; border-width: 3px; font-weight: 700; }
+
+.container-fluid .content .content-inner .service-alerts ul.alert-menu li:first-child span { color: #005195; }
+
+.container-fluid .content .content-inner .service-alerts ul.alert-menu li span { float: right; font-style: italic; }
+
+.container-fluid .content .content-inner .service-alerts .alert-copy { padding-left: 30px; }
 
 .container-fluid .content .content-inner .service-alerts .alert-copy h2 { margin-top: 40px; }
 
@@ -4811,6 +4817,10 @@ header { padding: 20px 0; }
 .container-fluid #contact-box .content-inner h3 { font-size: 40px; margin-top: 0; padding: 30px 0; }
 
 .container-fluid #contact-box .content-inner .phone-num { font-family: 'Share Tech Mono', monospace; font-weight: 400; font-style: normal; font-size: 32px; color: #FFF; text-decoration: underline; }
+
+.container-fluid #contact-box .content-inner button { background: none; border: 2px solid #CCC; text-align: center; text-transform: uppercase; width: 100%; max-width: 300px; padding: 10px 0; font-weight: 700; margin-top: 20px; }
+
+.container-fluid #contact-box .content-inner button i.fa { color: #d33c1d; margin-left: 40px; }
 
 .container-fluid #metra-biz { padding-bottom: 80px; }
 
@@ -4885,6 +4895,10 @@ header { padding: 20px 0; }
 #footer .footer-upper h4 { font-size: 25px; }
 
 #footer .footer-upper a { color: #FFF; }
+
+#footer .footer-upper button { background: none; border: 2px solid #CCC; text-align: center; text-transform: uppercase; width: 100%; max-width: 300px; padding: 10px 0; font-weight: 700; margin-top: 20px; }
+
+#footer .footer-upper button i.fa { color: #d33c1d; margin-left: 40px; }
 
 #footer .footer-middle { padding: 60px 0; color: #FFF; margin: 0; background-color: #533a8c; }
 
