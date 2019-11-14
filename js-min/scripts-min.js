@@ -12,8 +12,8 @@ jQuery(window).on("load", function() {
         centerMode: !0,
         asNavFor: ".box_slide",
         infinite: !0,
-        prevArrow: "<button type='button' href='#' title='previous arrow' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-        nextArrow: "<button type='button' href='#' title='next arrow' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+        prevArrow: "<button value='previous' aria-label='previous arrow' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow: "<button value='next' aria-label='next arrow' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
     });
 }), function(i) {
     "use strict";
