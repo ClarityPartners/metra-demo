@@ -22,6 +22,7 @@ h3{
 	font-weight:700;
 }
 .quote{
+    @include share();
 	margin:100px 20px 0;
 	line-height:1.5em;
 	font-size:37px;
@@ -59,7 +60,7 @@ header{
 	margin:0 auto;
 }
 //breakup images
-#breakup-image{
+.breakup-image{
 	min-height: 483px;
     margin: 0;
 }
@@ -146,6 +147,11 @@ header{
 
 		h2{
 			margin-top:0;
+            @include lato();
+            font-weight: 700;
+            color:#005195;
+            font-size: 40px;
+            padding: 30px 0;
 		}
 		&.lower{
 		border-left: 2px dashed #979797;
@@ -221,8 +227,12 @@ header{
 				.alert-copy{
 					padding-left:30px;
 
-                    h2{
+                    h3{
                         margin-top:40px;
+                        @include share();
+                        font-size: 30px;
+                        color: #000000;
+                        padding: 15px 0;
 
                         &:first-child{
                         	margin-top:0;
@@ -265,10 +275,12 @@ header{
 			color:#FFF;
 			padding:100px 0;
 
-			h3{
-				font-size:40px;
+			h2{
+				@include lato();
+                font-size:40px;
 				margin-top:0;
-				padding:30px 0;
+				padding:30px 0; 
+                font-weight: 700;
 			}
 			.phone-num{
 				@include share();
@@ -496,13 +508,21 @@ header{
 	}
 }
 #footer{
+    h2 {
+        @include lato();
+    }
+    h3 {
+        @include share();
+    }
+    
+    
 	.footer-upper{
 		padding:60px 0;
 		color:#FFF;
 		background-color:#005195;
 		margin:0;
 
-		h4{
+		h3{
 			font-size:25px;
 		}
 		a{color:#FFF;}
@@ -529,7 +549,7 @@ header{
 		margin:0;
 		background-color:#533a8c;
 
-		h4{
+		h3{
 			font-size:25px;
 			display:inline-block;
 		}
@@ -569,6 +589,7 @@ header{
 		.policy{
 			@include share();
 			font-size:26px;
+            a {color:#000000;}
 		}
 	}
 }
