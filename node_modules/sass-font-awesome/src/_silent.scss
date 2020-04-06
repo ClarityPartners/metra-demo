@@ -1,5 +1,0 @@
-@import 'variables-list';
-
-@each $name, $icon in $fa-icons {
-    %#{$fa-css-prefix}-#{$name}::before { content: $icon; }
-}
